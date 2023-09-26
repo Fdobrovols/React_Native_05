@@ -10,7 +10,8 @@ import Home from "./src/screens/main/Home/Home";
 
 export default function App() {
   const Stack = createNativeStackNavigator();
-
+   
+  
   // For fonts instalation
   SplashScreen.preventAutoHideAsync();
 
