@@ -8,6 +8,7 @@ import * as SplashScreen from "expo-splash-screen";
 import Authorization from "./src/screens/Auth/Authorization/Authorization";
 import Home from "./src/screens/main/Home/Home";
 
+
 export default function App() {
   const Stack = createNativeStackNavigator();
    
