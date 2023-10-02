@@ -23,6 +23,7 @@ export default function App() {
     "Roboto-Medium": require("./src/fonts/Roboto-Medium.ttf"),
     
     "Roboto-Bold": require("./src/fonts/Roboto-Bold.ttf"),
+    
   });
 
   const onLayoutRootView = useCallback(async () => {
