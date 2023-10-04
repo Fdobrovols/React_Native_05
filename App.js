@@ -46,6 +46,7 @@ export default function App() {
     <NavigationContainer style={styles.container}>
       <Stack.Navigator>
         <Stack.Screen
+          
           name="Authorization"
           component={Authorization}
           options={{ headerShown: false }}
