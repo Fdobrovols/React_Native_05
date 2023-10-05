@@ -11,32 +11,30 @@ import Home from "./src/screens/main/Home/Home";
 
 export default function App() {
   const Stack = createNativeStackNavigator();
-   
-  
+
+
   // For fonts instalation
   SplashScreen.preventAutoHideAsync();
 
   const [fontsLoaded] = useFonts({
-    
+
     "Roboto-Regular": require("./src/fonts/Roboto-Regular.ttf"),
-    
+
     "Roboto-Medium": require("./src/fonts/Roboto-Medium.ttf"),
-    
+
     "Roboto-Bold": require("./src/fonts/Roboto-Bold.ttf"),
-    
+
   });
 
   const onLayoutRootView = useCallback(async () => {
-    if (fontsLoaded)
-    {
+    if (fontsLoaded) {
       await SplashScreen.hideAsync();
     }
   }, [fontsLoaded]);
 
   onLayoutRootView();
 
-  if (!fontsLoaded)
-  {
+  if (!fontsLoaded) {
     return null;
   }
 
@@ -46,14 +44,16 @@ export default function App() {
     <NavigationContainer style={styles.container}>
       <Stack.Navigator>
         <Stack.Screen
-          
+
           name="Authorization"
           component={Authorization}
           options={{ headerShown: false }}
         />
         <Stack.Screen
           name="Home"
+
           component={Home}
+          
           options={{ headerShown: false }}
         />
       </Stack.Navigator>
