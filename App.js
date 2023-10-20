@@ -53,12 +53,12 @@ export default function App() {
           name="Home"
 
           component={Home}
-          
+
           options={{ headerShown: false }}
         />
-        
+
       </Stack.Navigator>
-      
+
     </NavigationContainer>
   );
 }
@@ -67,8 +67,9 @@ const styles = StyleSheet.create({
   container: {
     position: "relative",
     flex: 1,
-    
+
     backgroundColor: "#fff",
+
     fontFamily: "Roboto-Regular",
   },
 });
