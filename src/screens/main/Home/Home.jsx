@@ -59,7 +59,6 @@ const Home = () => {
         name="Profile"
         component={ProfileScreen}
         options={{
-          
           headerShown: false,
           tabBarShowLabel: false,
           tabBarIcon: ({ focused, color }) => (
