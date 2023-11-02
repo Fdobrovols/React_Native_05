@@ -40,7 +40,7 @@ const Home = () => {
         name="Создать публикацию"
         component={CreatePostsScreen}
         options={{
-          headerTitleAlign: "center",
+          headerTitleAlign: "left",
           headerStyle: styles.header,
           headerTitleContainerStyle: styles.headerTitle,
           tabBarShowLabel: false,
