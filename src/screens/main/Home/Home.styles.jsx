@@ -11,7 +11,7 @@ export default styles = StyleSheet.create({
   },
   plusBarIcon: {
     display: "flex",
-    justifyContent: "right",
+    justifyContent: "bottom",
     alignItems: "left",
     width: 70,
     height: 40,
