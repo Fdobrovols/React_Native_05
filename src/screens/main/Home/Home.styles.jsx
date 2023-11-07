@@ -14,6 +14,7 @@ export default styles = StyleSheet.create({
     justifyContent: "bottom",
     alignItems: "left",
     width: 70,
+    margin: 25,
     height: 40,
     borderRadius: 20,
     backgroundColor: "#FF6C00",
