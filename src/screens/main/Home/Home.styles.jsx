@@ -13,7 +13,7 @@ export default styles = StyleSheet.create({
     display: "flex",
     justifyContent: "bottom",
     alignItems: "top",
-    width: 70,
+    width: 60,
     height: 40,
     borderRadius: 20,
     backgroundColor: "#FF6C00",
