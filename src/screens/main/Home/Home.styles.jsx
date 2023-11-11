@@ -10,7 +10,7 @@ export default styles = StyleSheet.create({
     bottom: 11,
   },
   plusBarIcon: {
-    display: "none",
+    display: "grid",
     justifyContent: "bottom",
     alignItems: "top",
     width: 60,
