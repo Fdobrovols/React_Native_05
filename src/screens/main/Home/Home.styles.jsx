@@ -12,7 +12,7 @@ export default styles = StyleSheet.create({
   plusBarIcon: {
     display: "grid",
     justifyContent: "bottom",
-    alignItems: "top",
+    alignItems: "center",
     width: 60,
     height: 40,
     borderRadius: 20,
