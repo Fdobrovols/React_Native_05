@@ -13,7 +13,7 @@ export default styles = StyleSheet.create({
     display: "grid",
     justifyContent: "bottom",
     alignItems: "center",
-    width: 40,
+    width: 10,
     height: 40,
     borderRadius: 10,
     backgroundColor: "#FF6C00",
