@@ -16,6 +16,6 @@ export default styles = StyleSheet.create({
     width: 10,
     height: 40,
     borderRadius: 10,
-    backgroundColor: "#FF6C00",
+    backgroundColor: "#ad6029",
   },
 });
